@@ -13,6 +13,6 @@ export default {
   
 }
 </script>
-<style scoped lang='stylus' ref="stylesheet/stylus">
+<style scoped>
 
 </style>
