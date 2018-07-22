@@ -1,12 +1,25 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view :seller= "seller"></router-view>
   </div>
 </template>
 
 <script>
+import axios from "axios"
 export default {
-  name: 'App'
+  name: 'App',
+  data(){
+    return {
+      seller:{}
+    }
+  },
+  created(){
+    axios.get('/good/seller').then(
+      (res) =>{
+        this.seller = res.data.data;
+      }
+    )    
+  }
 }
 
 </script>

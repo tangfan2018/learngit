@@ -3,9 +3,7 @@
 </template>
 <script>
 export default {
-  props:{
-    seller:Object
-  }
+
 }
 </script>
 <script>
@@ -13,6 +11,6 @@ export default {
   
 }
 </script>
-<style scoped lang="stylus">
-
+<style scoped>
+    
 </style>

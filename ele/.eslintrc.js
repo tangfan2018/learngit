@@ -29,6 +29,13 @@ module.exports = {
     "indent": [2, 2],
     "comma-spacing": 0,
     "key-spacing": [0, { "beforeColon": false, "afterColon": true }],
-    "no-trailing-spaces":0
+    "no-trailing-spaces":0,
+    "space-before-function-paren":0,
+    "space-before-blocks":0,
+    "no-labels":0,
+    "arrow-spacing":0, 
+    "indent":0,
+    "semi":0,
+    "quotes":0
   }
 }
